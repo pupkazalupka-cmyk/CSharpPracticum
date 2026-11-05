@@ -20,12 +20,16 @@ namespace ConsoleApp19.Tasks.Level1
             bool b = true;
             char c = 'A';
             string s = "C#";
+            long l = 9_000_000_000L;
+            decimal m = 19.99m;
 
-            Console.WriteLine($"int = {i}");
-            Console.WriteLine($"double = {d}");
-            Console.WriteLine($"bool = {b}");
-            Console.WriteLine($"char = {c}");
-            Console.WriteLine($"string = {s}");
+            Console.WriteLine($"int     = {i}, тип: {i.GetType().Name}");
+            Console.WriteLine($"double  = {d}, тип: {d.GetType().Name}");
+            Console.WriteLine($"bool    = {b}, тип: {b.GetType().Name}");
+            Console.WriteLine($"char    = {c}, тип: {c.GetType().Name}");
+            Console.WriteLine($"string  = {s}, тип: {s.GetType().Name}");
+            Console.WriteLine($"long    = {l}, тип: {l.GetType().Name}");
+            Console.WriteLine($"decimal = {m}, тип: {m.GetType().Name}");
         }
     }
 }
