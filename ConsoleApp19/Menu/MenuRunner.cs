@@ -49,6 +49,13 @@ namespace ConsoleApp19.Menu
                 Console.WriteLine("13. Словарь");
                 Console.WriteLine("14. Факториал");
                 Console.WriteLine("15. Git");
+                Console.WriteLine("--- Уровень 2: Средний ---");
+                Console.WriteLine("16. Методы расширения для string");
+                Console.WriteLine("17. StringBuilder vs конкатенация");
+                Console.WriteLine("18. TryParse vs try/catch");
+                Console.WriteLine("19. Свой стек/очередь на массиве");
+                Console.WriteLine("20. Обобщения: Swap, Max");
+                Console.WriteLine("21. enum дни недели");
                 Console.WriteLine("0. Назад");
                 Console.Write("\nВыберите задание: ");
 
@@ -71,6 +78,12 @@ namespace ConsoleApp19.Menu
                 else if (choice == "13") task = new Task13_DictionaryBasics();
                 else if (choice == "14") task = new Task14_Factorial();
                 else if (choice == "15") task = new Task15_GitBasics();
+                else if (choice == "16") task = new Tasks.Level2.Task16_StringExtensions();
+                else if (choice == "17") task = new Tasks.Level2.Task17_StringBuilderVsConcat();
+                else if (choice == "18") task = new Tasks.Level2.Task18_TryParseVsTryCatch();
+                else if (choice == "19") task = new Tasks.Level2.Task19_MyStackQueue();
+                else if (choice == "20") task = new Tasks.Level2.Task20_Generics();
+                else if (choice == "21") task = new Tasks.Level2.Task21_EnumDays();
                 if (task != null)
                 {
                     Console.Clear();
