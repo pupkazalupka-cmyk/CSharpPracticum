@@ -56,6 +56,19 @@ namespace ConsoleApp19.Menu
                 Console.WriteLine("19. Свой стек/очередь на массиве");
                 Console.WriteLine("20. Обобщения: Swap, Max");
                 Console.WriteLine("21. enum дни недели");
+                Console.WriteLine("22. params-метод + перегрузка");
+                Console.WriteLine("23. Nullable-типы, ??, ?.");
+                Console.WriteLine("24. ООП: Animal → Dog/Cat/Bird");
+                Console.WriteLine("25. Интерфейс IShape + сортировка фигур");
+                Console.WriteLine("26. Паттерн «Стратегия» (скидки)");
+                Console.WriteLine("27. IComparable / IComparer<T> для Student");
+                Console.WriteLine("28. Equals / GetHashCode для Point");
+                Console.WriteLine("29. Паттерн «Фабрика» (уведомления)");
+                Console.WriteLine("30. BankAccount + свой Exception");
+                Console.WriteLine("31. IDisposable + using");
+                Console.WriteLine("32. Свойства с валидацией (Temperature)");
+                Console.WriteLine("33. LINQ: сотрудники");
+                Console.WriteLine("34. LINQ: группировка слов");
                 Console.WriteLine("0. Назад");
                 Console.Write("\nВыберите задание: ");
 
@@ -84,6 +97,19 @@ namespace ConsoleApp19.Menu
                 else if (choice == "19") task = new Tasks.Level2.Task19_MyStackQueue();
                 else if (choice == "20") task = new Tasks.Level2.Task20_Generics();
                 else if (choice == "21") task = new Tasks.Level2.Task21_EnumDays();
+                else if (choice == "22") task = new Tasks.Level2.Task22_ParamsOverload();
+                else if (choice == "23") task = new Tasks.Level2.Task23_Nullable();
+                else if (choice == "24") task = new Tasks.Level2.Task24_Animals();
+                else if (choice == "25") task = new Tasks.Level2.Task25_Shapes();
+                else if (choice == "26") task = new Tasks.Level2.Task26_DiscountStrategy();
+                else if (choice == "27") task = new Tasks.Level2.Task27_StudentSorting();
+                else if (choice == "28") task = new Tasks.Level2.Task28_PointEquality();
+                else if (choice == "29") task = new Tasks.Level2.Task29_NotificationFactory();
+                else if (choice == "30") task = new Tasks.Level2.Task30_BankAccount();
+                else if (choice == "31") task = new Tasks.Level2.Task31_DisposableFile();
+                else if (choice == "32") task = new Tasks.Level2.Task32_Temperature();
+                else if (choice == "33") task = new Tasks.Level2.Task33_LinqEmployees();
+                else if (choice == "34") task = new Tasks.Level2.Task34_LinqWordGroups();
                 if (task != null)
                 {
                     Console.Clear();
