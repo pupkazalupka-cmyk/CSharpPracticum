@@ -36,7 +36,7 @@ namespace ConsoleApp19.Tasks.Level2
 
         public Student(string name, double avg) { Name = name; AverageGrade = avg; }
 
-        public int CompareTo(Student? other)
+        public int CompareTo(Student other)
         {
             if (other == null) return 1;
             return other.AverageGrade.CompareTo(AverageGrade); // Сортировка по убыванию

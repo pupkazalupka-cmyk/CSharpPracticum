@@ -68,4 +68,4 @@ namespace ConsoleApp19.Tasks.Level2
         }
         public double Perimeter() => A + B + C;
     }
-}1q`
+}

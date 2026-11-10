@@ -31,7 +31,7 @@ namespace ConsoleApp19.Tasks.Level2
 
         public Point(int x, int y) { X = x; Y = y; }
 
-        public bool Equals(Point? other)
+        public bool Equals(Point other)
         {
             if (other is null) return false;
             return X == other.X && Y == other.Y;
@@ -39,6 +39,6 @@ namespace ConsoleApp19.Tasks.Level2
 
         public override bool Equals(object? obj) => Equals(obj as Point);
 
-        public override int GetHashCode() => HashCode.Combine(X, Y);
+        public override int GetHashCode() => (X * 397) ^ Y;
     }
 }

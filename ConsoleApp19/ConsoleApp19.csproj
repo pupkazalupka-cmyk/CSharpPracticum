@@ -9,6 +9,7 @@
     <RootNamespace>ConsoleApp19</RootNamespace>
     <AssemblyName>ConsoleApp19</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -63,6 +64,25 @@
     <Compile Include="Tasks\Level1\Task13_DictionaryBasics.cs" />
     <Compile Include="Tasks\Level1\Task14_Factorial.cs" />
     <Compile Include="Tasks\Level1\Task15_GitBasics.cs" />
+    <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
+    <Compile Include="Tasks\Level2\Task17_StringBuilderVsConcat.cs" />
+    <Compile Include="Tasks\Level2\Task18_TryParseVsTryCatch.cs" />
+    <Compile Include="Tasks\Level2\Task19_MyStackQueue.cs" />
+    <Compile Include="Tasks\Level2\Task20_Generics.cs" />
+    <Compile Include="Tasks\Level2\Task21_EnumDays.cs" />
+    <Compile Include="Tasks\Level2\Task22_ParamsOverload.cs" />
+    <Compile Include="Tasks\Level2\Task23_Nullable.cs" />
+    <Compile Include="Tasks\Level2\Task24_Animals.cs" />
+    <Compile Include="Tasks\Level2\Task25_Shapes.cs" />
+    <Compile Include="Tasks\Level2\Task26_DiscountStrategy.cs" />
+    <Compile Include="Tasks\Level2\Task27_StudentSorting.cs" />
+    <Compile Include="Tasks\Level2\Task28_PointEquality.cs" />
+    <Compile Include="Tasks\Level2\Task29_NotificationFactory.cs" />
+    <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
+    <Compile Include="Tasks\Level2\Task31_DisposableFile.cs" />
+    <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
+    <Compile Include="Tasks\Level2\Task33_LingEmployees.cs" />
+    <Compile Include="Tasks\Level2\Task34_LingWordGroups.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

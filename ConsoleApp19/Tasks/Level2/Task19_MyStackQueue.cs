@@ -76,5 +76,4 @@ namespace ConsoleApp19.Tasks.Level2
             return _items[_head];
         }
     }
-}
-}
+ }
